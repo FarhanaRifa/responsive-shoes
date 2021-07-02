@@ -1,0 +1,146 @@
+@font-face {
+    font-family:bebas ;
+    src: url(font/BebasKai.ttf);
+}
+body{
+    font-family: bebas !important;
+    display: block;
+}
+
+.logo-size{
+    width: 350px;
+}
+.nav-link{
+    margin: 30px;
+    font-size: 25px;
+    color: black !important;
+    text-transform: capitalize !important;
+}
+.bannar-img{
+    width: 100%;
+}
+.head-name{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+.color{
+    color:#fa804c;
+}
+.similar{
+    color: #363958;
+}
+.banner-details{
+   padding-left: 100px !important; 
+}
+
+#bye-now{
+    background-color: #3a4ade;
+    width: 184px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 32px;
+}
+.cream{
+    background-color: #fff9f4;
+    padding: 50px;
+    padding-bottom: 70px;
+}
+.cimag{
+    height: 300px;
+    width: auto;
+   
+   
+}
+.pcimag{
+    border: none;
+    background-color: #f1f1f1;
+    border-radius: 24px;
+    margin: 20px;
+    text-align: center;
+    
+    
+}
+.card{
+    border: none !important;
+    border-radius: 30px !important;
+}
+.cfooter {
+    padding: .5rem 1rem;
+    
+}
+h2{
+    font-size: 50px !important;
+    font-style: bold !important;
+}
+.card-title{
+    font-size: 40px !important;
+    font-weight: 500 !important;
+}
+.card-text{
+    font-size: 24px;
+}
+.formal-img{
+    text-align: center;
+}
+.icon{
+    height: 100px;
+    width: auto;
+}
+.icon-img{
+    text-align: center;
+}
+.last-img{
+    
+    width: 100% !important;
+}
+.first2{
+    display: none;
+}
+.normal-show{
+    display: block;
+}
+.responsive-show{
+    display: none;
+}
+.navbar-collapse{
+    display:none
+}
+p{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-collapse{
+        display:block
+    }
+    .first1{
+        display: none;
+    }
+    .first2{
+        display: block;
+    }
+    .normal-show{
+        display: none;
+    }
+    .responsive-show{
+        display: block;
+    }
+    .fast-col{
+        padding-top: 25px;
+    }
+    .logo-size{
+        width: 240px;
+    }
+    .head-name{
+        font-size: 60px;
+        }
+    .banner-details{
+        padding-left: 10px !important; 
+       
+        }
+        .icon-body{
+            text-align: center;
+        }
+}
